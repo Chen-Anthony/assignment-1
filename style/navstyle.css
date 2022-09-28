@@ -1,20 +1,18 @@
 @charset "UTF-8";
 .navigation {
   background-color: #44374e;
-  color:white;
-  
+  color: white;
+
   width: 100%;
   display: flex;
   /* space between seperates both children of navigation with empty space */
   justify-content: space-between;
   align-items: center;
-  margin-top:0;
-  top:0;
+  margin-top: 0;
+  top: 0;
 }
 .navigation_links {
-  
   display: flex;
-  
 }
 /* this allows the child itself to have all links spaced horizontaly */
 .navigation_links ul {
@@ -30,50 +28,53 @@
   display: none;
   /* keeps it relative to the ancestor body  */
   position: absolute;
-  top:0.5rem;
+  top: 0.5rem;
   right: 1rem;
 }
 .navigation_links li a {
   padding: 2rem;
   text-decoration: none;
-  color:white
+  color: white;
 }
 
 .logo {
   display: flex;
   justify-content: flex-start;
   margin-left: 0.5rem;
-  margin-top:0.5rem;
-  margin-bottom:0.5rem;
-  
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 /* This adjust for diffrent screens */
-@media (max-width: 530px) {
+@media (max-width: 600px) {
   /* the links will dissapear when screen reaches less than 530px */
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .logo_2 {
     display: flex;
-    
   }
   .navigation_links {
     display: none;
     width: 100%;
   }
   /* when screen gets to small, the navigation parent will turn into a column using flex */
-  .navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start
-  }
-  .navigation_links ul{
+
+  .navigation_links ul {
     width: 100%;
     flex-direction: column;
   }
-  .navigation_links li{
+  .navigation_links li {
     text-align: center;
-    
   }
-  
-  
+
+  .navigation_links li a {
+    display: inline-block;
+    padding: 0%;
+    padding-bottom: 5%;
+  }
+
   /* this connects to javascript so that the event of someone clicking logo2 it would appear*/
   .navigation_links.active {
     display: flex;
