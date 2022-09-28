@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.navigation {
+  background-color: #44374e;
+
+  height: 50px;
+  width: 100%;
+  display: flex;
+  /* space between seperates both children of navigation with empty space */
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation_links {
+  display: flex;
+}
+/* this allows the child itself to have all links spaced horizontaly */
+.navigation_links ul {
+  display: flex;
+  flex-direction: row;
+}
+/* deletes list style */
+.navigation_links li {
+  list-style: none;
+}
+/* logo that will be used when screen gets too small */
+.logo_2 {
+  display: none;
+  /* keeps it relative to the ancestor  */
+  position: absolute;
+
+  right: 1rem;
+}
+.navigation_links li a {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.5rem;
+}
