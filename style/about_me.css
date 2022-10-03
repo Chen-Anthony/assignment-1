@@ -1,0 +1,9 @@
+@charset "UTF-8";
+#about_me {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
