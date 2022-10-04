@@ -1,11 +1,17 @@
 @charset "UTF-8";
-
+section h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 90px;
+}
 .contain {
+  padding-top: 100px;
+  padding-bottom: 200px;
   width: 100%;
-
+  height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 
   overflow: hidden;
@@ -13,14 +19,33 @@
 
 .colm_sec {
   display: flex;
-  padding: 50px;
 
-  width: 30vw;
+  max-width: 300px;
+  /* width: 25vw; */
 }
 
 .contain img {
-  max-width: 100%;
-  height: 20vw;
+  /* max-width: 100%;
+  min-height:250px; */
+  width: 100%;
+  background-size: colm_sec;
+  height: 200px;
+  border-radius: 10%;
+  object-fit: cover;
+}
 
+.work_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+}
+.future_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+}
+.school_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10%;
 }

@@ -11,3 +11,7 @@ body {
   color: white;
   background-image: linear-gradient(to right, #926899, #7999c3);
 }
+
+.navigation {
+  position: fixed;
+}
