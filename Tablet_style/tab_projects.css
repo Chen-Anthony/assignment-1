@@ -1,0 +1,69 @@
+@charset "UTF-8";
+header h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 90px;
+}
+.contain {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+
+  max-width: 300px;
+}
+
+.contain img {
+  width: 100%;
+  background-size: colm_sec;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.hangman_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+}
+.cisco_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+}
+.azure_colm {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+
+p {
+  padding-top: 5px;
+  text-align: left;
+}
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+footer p {
+  padding: 35px;
+}

@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style/Global.css" />
+    <link rel="stylesheet" href="Desktop_style/Global.css" />
     <script src="navbar.js" defer></script>
-    <link rel="stylesheet" href="style/navstyle.css" />
+    <link rel="stylesheet" href="Desktop_style/navstyle.css" />
 
-    <link rel="stylesheet" href="style/about_me.css" />
+    <link
+      rel="stylesheet"
+    
+      href="Desktop_style/about_me.css"
+    />
+    <link rel="stylesheet"  href="Tablet_style/tab_about_me.css" />
   </head>
   <body>
     <!-- navibation class is the navigation bar on all pages-->
-    <nav class="navigation">
+    <div class="navigation">
       <div class="logo">
         <!-- SVG code from icon website used -->
         <svg
@@ -30,14 +35,14 @@
         </svg>
       </div>
 
-      <div class="navigation_links">
+      <nav class="navigation_links">
         <ul>
           <li><a href="index.html">Homepage</a></li>
           <li><a href="about_me.html">About Me</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+      </nav>
       <!-- SVG code from icon website used -->
       <div class="logo_2">
         <svg
@@ -54,36 +59,39 @@
           />
         </svg>
       </div>
-    </nav>
+    </div>
     <header>
       <h1>About Me.</h1>
     </header>
     <div class="contain">
-      <div class="colm_sec">
-        <div class="school_colm">
+      <section class="main">
+        <article class="school_colm">
+          <h3>School</h3>
           <img src="pictures/uoit.webp" lt="future" />
           <p>
             I am a student in Ontario Tech University and I am in my second year
             learning Networking and I.T Security.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="colm_sec">
-        <div class="work_colm">
+      <section class="main">
+        <article class="work_colm">
+          <h3>Work</h3>
           <img src="pictures/shoppers.jpg" alt="shoppers" />
           <p>I currenlty work in Shoppers Drug Mart as a merchandiser.</p>
-        </div>
-      </div>
-      <div class="colm_sec">
-        <div class="future_colm">
+        </article>
+      </section>
+      <section class="main">
+        <article class="future_colm">
+          <h3>Goals</h3>
           <img src="pictures/future.jpg" alt="future" />
           <p>
             My goal is to work in the cyber security field and protect systems
             and devices against hackers
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
     </div>
     <div class="vid_position">
       <video
@@ -95,11 +103,10 @@
         controls
       ></video>
     </div>
-    <br>
+    <br />
     <footer>
       <em>&copy;2022 by Jia Hao Chen</em>
-      <p> anthony@hotmail.com</p>
-    
+      <p>anthony@hotmail.com</p>
     </footer>
   </body>
 </html>

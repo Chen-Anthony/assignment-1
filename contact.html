@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="navbar.js" defer></script>
-    <link rel="stylesheet" href="style/navstyle.css" />
-    <link rel="stylesheet" href="style/Global.css" />
-    <link rel="stylesheet" href="style/contact_page.css" />
+    <link rel="stylesheet" href="Desktop_style/navstyle.css" />
+    <link rel="stylesheet" href="Desktop_style/Global.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="Desktop_style/contact_page.css" />
   </head>
   <body>
     <!-- navibation class is the navigation bar on all pages-->
-    <nav class="navigation">
+    <div class="navigation">
       <div class="logo">
         <!-- SVG code from icon website used -->
         <svg
@@ -29,14 +29,14 @@
         </svg>
       </div>
 
-      <div class="navigation_links">
+      <nav class="navigation_links">
         <ul>
           <li><a href="index.html">Homepage</a></li>
           <li><a href="about_me.html">About Me</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+      </nav>
       <!-- SVG code from icon website used -->
       <div class="logo_2">
         <svg
@@ -53,7 +53,7 @@
           />
         </svg>
       </div>
-    </nav>
+    </div>
     <div id="wrapper">
       <form
         action="mailto:email@email.com"

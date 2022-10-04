@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="navbar.js" defer></script>
-    <link rel="stylesheet" href="style/navstyle.css" />
-    <link rel="stylesheet" href="style/Global.css" />
-    <link rel="stylesheet" href="style/homepagestyle.css" />
+    <link rel="stylesheet" href="Desktop_style/navstyle.css" />
+    <link rel="stylesheet" href="Desktop_style/Global.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="Desktop_style/homepagestyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- creating a parent navigation class that has child logos and link classes -->
-    <nav class="navigation">
+    <div class="navigation">
       <div class="logo">
         <!-- SVG code from icon website used -->
         <svg
@@ -36,14 +36,14 @@
         </svg>
       </div>
 
-      <div class="navigation_links">
+      <nav class="navigation_links">
         <ul>
           <li><a href="index.html">Homepage</a></li>
           <li><a href="about_me.html">About Me</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+      </nav>
       <!-- SVG code from icon website used -->
       <div class="logo_2">
         <svg
@@ -60,7 +60,7 @@
           />
         </svg>
       </div>
-    </nav>
+    </div>
     <!-- creating the actual homepage -->
     <div id="home_design">
       <div id="intro">

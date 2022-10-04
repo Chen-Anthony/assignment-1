@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 header h1 {
   padding-top: 100px;
   text-align: center;
@@ -17,16 +18,13 @@ header h1 {
   overflow: hidden;
 }
 
-.colm_sec {
+.main {
   display: flex;
 
   max-width: 300px;
-  /* width: 25vw; */
 }
 
 .contain img {
-  /* max-width: 100%;
-  min-height:250px; */
   width: 100%;
   background-size: colm_sec;
   height: 200px;
@@ -50,6 +48,14 @@ header h1 {
   border-radius: 10%;
 }
 
+p {
+  padding-top: 5px;
+  text-align: left;
+}
+
+h3 {
+  padding-bottom: 5px;
+}
 .vid_position {
   display: flex;
   flex-direction: column;
@@ -57,25 +63,58 @@ header h1 {
   padding-bottom: 100px;
 }
 
-footer{
+footer {
   background-color: black;
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width:100%;
-
+  width: 100%;
 }
-footer p{
-  padding:35px;
+footer p {
+  padding: 35px;
 }
 
-@media (max-width: 990px) {
+/* @media (max-width: 990px) {
   .contain {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .colm_sec {
+  .main {
     padding-bottom: 50px;
+  }
+} */
+@media screen and (max-width: 999px) {
+  .contain {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    overflow: hidden;
+  }
+
+  .main {
+    display: flex;
+
+    max-width: 250px;
+  }
+
+  .contain img {
+    width: 100%;
+    background-size: colm_sec;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+  }
+
+  .work_colm {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
   }
 }
