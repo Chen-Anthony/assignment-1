@@ -25,7 +25,7 @@ header h1 {
 
 .contain img {
   width: 100%;
-  background-size: colm_sec;
+  
   height: 250px;
   border-radius: 10%;
   object-fit: cover;
@@ -77,7 +77,7 @@ footer p {
 
   .contain img {
     width: 100%;
-    background-size: colm_sec;
+    
     height: 150px;
     border-radius: 10%;
     object-fit: cover;

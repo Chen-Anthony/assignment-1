@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   padding-top: 100px;
   display: flex;
@@ -10,11 +11,12 @@ body {
   position: relative;
 
 }
+/* creates a background shape beneath the child elements */
 form {
   background-color: rgb(0, 0, 0, 0.3);
   padding: 7%;
   
-  border-radius: 10px;
+  border-radius: 20px;
 }
 p {
   padding: 7px;
@@ -23,7 +25,7 @@ h1 {
   text-align: center;
   padding-bottom: 25px;
 }
-
+/* Below the input style creats transparent boxes and links it to user input from html */
 input[type="text"] {
   background: rgb(0, 0, 0, 0.1);
   border: none;
@@ -47,7 +49,7 @@ input[type="tel"] {
 }
 input[type="submit"] {
   background: rgb(0, 0, 0, 0.1);
-  border: 3 px;
+  border: 3px;
   border-color: white;
   width: 30%;
   height: 35px;
@@ -56,7 +58,7 @@ input[type="submit"] {
 }
 input[type="reset"] {
   background: rgb(0, 0, 0, 0.1);
-  border: 3 px;
+  border: 3px;
   border-color: white;
   width: 30%;
   height: 35px;
@@ -77,7 +79,7 @@ textarea {
   height: 90px;
   border-radius: 10px;
 }
-
+/* pseudoelement that alows the placeholder words to be white without being affected by the style of other elements before */
 ::placeholder {
   color: white;
   padding-left: 10px;

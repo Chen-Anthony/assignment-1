@@ -5,7 +5,9 @@ header h1 {
   text-align: center;
   font-size: 90px;
 }
+/* wraps all the chilren element with flex row so it will line up in a row */
 .contain {
+  
   padding-top: 100px;
   padding-bottom: 50px;
   width: 100%;
@@ -26,7 +28,7 @@ header h1 {
 
 .contain img {
   width: 100%;
-  background-size: colm_sec;
+  
   height: 200px;
   border-radius: 10%;
   object-fit: cover;
@@ -92,7 +94,7 @@ footer p {
 
   .contain img {
     width: 100%;
-    background-size: colm_sec;
+    
     height: 150px;
     border-radius: 10%;
     object-fit: cover;

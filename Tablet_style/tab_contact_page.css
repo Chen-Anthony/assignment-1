@@ -12,11 +12,7 @@
     position: relative;
   
   }
-  /* #wrapper{
-    width:60vh;
-    height:auto;
-  } */
-
+ 
   form {
     background-color: rgb(0, 0, 0, 0.3);
     padding: 7%;
@@ -54,7 +50,7 @@
   }
   input[type="submit"] {
     background: rgb(0, 0, 0, 0.1);
-    border: 3 px;
+    border: 3px;
     border-color: white;
     width: 30%;
     height: 35px;
@@ -63,7 +59,7 @@
   }
   input[type="reset"] {
     background: rgb(0, 0, 0, 0.1);
-    border: 3 px;
+    border: 3px;
     border-color: white;
     width: 30%;
     height: 35px;
