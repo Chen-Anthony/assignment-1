@@ -6,15 +6,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
+/* make the body full screen of any size with 100vh */
 body {
   
   font-family: "Signika", sans-serif;
   color: white;
   background-image: linear-gradient(to right, #926899, #7999c3);
   min-height:100vh;
+  display:flex;
+  flex-direction: column;
+  
 }
-
+/* fixes the navigation bar on top */
 .navigation {
   
   position: fixed;
