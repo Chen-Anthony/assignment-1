@@ -7,11 +7,15 @@
   padding: 0;
 }
 body {
+  
   font-family: "Signika", sans-serif;
   color: white;
   background-image: linear-gradient(to right, #926899, #7999c3);
+  min-height:100vh;
 }
 
 .navigation {
+  
   position: fixed;
 }
+

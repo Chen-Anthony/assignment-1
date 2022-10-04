@@ -1,12 +1,12 @@
 @charset "UTF-8";
-section h1 {
+header h1 {
   padding-top: 100px;
   text-align: center;
   font-size: 90px;
 }
 .contain {
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   width: 100%;
   height: auto;
   display: flex;
@@ -36,16 +36,46 @@ section h1 {
 
 .work_colm {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10%;
 }
 .future_colm {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10%;
 }
 .school_colm {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10%;
+}
+
+.vid_position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+footer{
+  background-color: black;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+
+}
+footer p{
+  padding:35px;
+}
+
+@media (max-width: 990px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colm_sec {
+    padding-bottom: 50px;
+  }
 }
