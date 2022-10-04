@@ -1,26 +1,24 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   body {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
-  
+
     width: 100%;
     position: relative;
-  
   }
-  /* #wrapper{
-    width:60vh;
-    height:auto;
-  } */
+  #wrapper {
+    width: 70%;
+  }
 
   form {
     background-color: rgb(0, 0, 0, 0.3);
     padding: 7%;
-    
+
     border-radius: 10px;
   }
   p {
@@ -29,8 +27,9 @@
   h1 {
     text-align: center;
     padding-bottom: 25px;
+    font-size: 25px;
   }
-  
+
   input[type="text"] {
     background: rgb(0, 0, 0, 0.1);
     border: none;
@@ -56,7 +55,7 @@
     background: rgb(0, 0, 0, 0.1);
     border: 3 px;
     border-color: white;
-    width: 30%;
+    width: 60%;
     height: 35px;
     border-radius: 5px;
     color: white;
@@ -65,18 +64,17 @@
     background: rgb(0, 0, 0, 0.1);
     border: 3 px;
     border-color: white;
-    width: 30%;
+    width: 60%;
     height: 35px;
     border-radius: 5px;
     color: white;
   }
-  
+
   input {
-    
     padding-left: 10px;
     color: white;
   }
-  
+
   textarea {
     background: rgb(0, 0, 0, 0.1);
     border: none;
@@ -84,22 +82,20 @@
     height: 90px;
     border-radius: 10px;
   }
-  
+
   ::placeholder {
     color: white;
     padding-left: 10px;
   }
-  footer{
-      background-color: black;
-      display:flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width:100%;
-      margin-top: 50px;
-    
-    }
-    footer p{
-      padding:35px;
-    }
-    
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  footer p {
+    padding: 35px;
+  }
 }

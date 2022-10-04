@@ -56,12 +56,21 @@ p {
 h3 {
   padding-bottom: 5px;
 }
-.vid_position {
+
+.vid_position{
   display: flex;
-  flex-direction: column;
+  
+  
+  justify-content: center;
+  
   align-items: center;
+  padding-top:30px;
   padding-bottom: 100px;
 }
+.vid_position video{
+ 
+  width:50%;}
+
 
 footer {
   background-color: black;
@@ -74,30 +83,7 @@ footer p {
   padding: 35px;
 }
 
-/* @media (max-width: 990px) {
-  .contain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .main {
-    padding-bottom: 50px;
-  }
-} */
 @media screen and (max-width: 999px) {
-  .contain {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-
-    overflow: hidden;
-  }
-
   .main {
     display: flex;
 
@@ -110,11 +96,5 @@ footer p {
     height: 150px;
     border-radius: 10%;
     object-fit: cover;
-  }
-
-  .work_colm {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10%;
   }
 }

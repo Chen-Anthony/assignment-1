@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   header h1 {
     padding-top: 100px;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .contain {
@@ -14,5 +14,10 @@
 
   .main {
     padding-bottom: 25px;
+  }
+  .main {
+    display: flex;
+
+    max-width: 230px;
   }
 }

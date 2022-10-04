@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   #home_design {
     display: flex;
     flex-direction: column-reverse;
@@ -10,7 +10,7 @@
   }
 
   #pic img {
-    width: 250px;
+    width: 170px;
     border-radius: 50%;
   }
 
@@ -20,10 +20,12 @@
     font-size: 15px;
     margin-bottom: 40px;
   }
-  h5 {
-    padding-top: 20px;
+  #intro h1 {
+    margin-bottom: 20px;
+    font-size: 70px;
   }
+
   footer {
-    margin-top: 90px;
+    margin-top: 160px;
   }
 }

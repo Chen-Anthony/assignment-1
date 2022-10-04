@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.navigation {
+  background-color: #44374e;
+  color: white;
+
+  width: 100%;
+  display: flex;
+  /* space between seperates both children of navigation with empty space */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  top: 0;
+}
+.navigation_links {
+  display: flex;
+}
+/* this allows the child itself to have all links spaced horizontaly */
+.navigation_links ul {
+  display: flex;
+  flex-direction: row;
+}
+/* deletes list style */
+.navigation_links li {
+  list-style: none;
+}
+/* logo that will be used when screen gets too small */
+.logo_2 {
+  display: none;
+  /* keeps it relative to the ancestor body  */
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
+.navigation_links li a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/* This adjust for diffrent screens */
+@media (max-width: 600px) {
+  /* the links will dissapear when screen reaches less than 530px */
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .logo_2 {
+    display: flex;
+  }
+  .navigation_links {
+    display: none;
+    width: 100%;
+    position:relative;
+  }
+  /* when screen gets to small, the navigation parent will turn into a column using flex */
+
+  .navigation_links ul {
+    
+    flex-direction: column;
+    position: absolute;
+    width:100%;
+    background-color: #44374e;
+  
+
+  }
+  .navigation_links li {
+    text-align: center;
+  }
+
+  .navigation_links li a {
+    display: inline-block;
+    padding: 0%;
+    padding-bottom: 5%;
+  }
+
+  /* this connects to javascript so that the event of someone clicking logo2 it would appear*/
+  .navigation_links.active {
+    display: flex;
+  }
+}

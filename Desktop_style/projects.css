@@ -67,3 +67,19 @@ footer {
 footer p {
   padding: 35px;
 }
+
+@media screen and (max-width: 999px) {
+  .main {
+    display: flex;
+
+    max-width: 250px;
+  }
+
+  .contain img {
+    width: 100%;
+    background-size: colm_sec;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+  }
+}

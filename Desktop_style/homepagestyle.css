@@ -36,25 +36,3 @@ footer {
 footer p {
   padding: 35px;
 }
-
-@media (max-width: 600px) {
-  #home_design {
-    display: flex;
-    flex-direction: column-reverse;
-
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  #pic img {
-    width: 250px;
-    border-radius: 50%;
-  }
-
-  #intro p {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 15px;
-    margin-bottom: 40px;
-  }
-}
