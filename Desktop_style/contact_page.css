@@ -51,7 +51,7 @@ input[type="tel"] {
 
 
 input[type="submit"] {
-  background: rgb(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0.5);
   border: 3px;
   border-color: white;
   width: 30%;
@@ -60,7 +60,7 @@ input[type="submit"] {
   color: white;
 }
 input[type="reset"] {
-  background: rgb(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0.5);
   border: 3px;
   border-color: white;
   width: 30%;
